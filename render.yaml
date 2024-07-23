@@ -1,0 +1,6 @@
+services:
+  web:
+    image: node:16
+    build: .
+    ports:
+      - "3000:3000"

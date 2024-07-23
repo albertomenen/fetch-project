@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fetch-ai"
+version = "0.1.0"
+description = ""
+authors = ["albertomenendez <alberto.menendez@gitlab.com>"]
+readme = "README.md"
+packages = [{include = "fetch"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
